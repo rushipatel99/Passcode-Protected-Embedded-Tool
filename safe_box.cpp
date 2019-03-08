@@ -204,6 +204,7 @@ int select(int codeEntered, int selector, int* pass)
               }
               else if(0!=SW.getSwitch(2))
               {
+                  selector=2;
                   LD.setNumber(2);
               }
               else if(0!=SW.getSwitch(3))
